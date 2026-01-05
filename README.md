@@ -118,6 +118,15 @@ The project includes an interactive **Streamlit app** with:
 
 ---
 
+
+No `text` on the closing fence.  
+By writing ```text again, you **re-opened** another code block instead of closing it.
+
+That’s why everything after is still broken.
+
+---
+
+```markdown
 ## 📁 Project Structure
 
 ```text
@@ -148,7 +157,7 @@ threads_sentiment_project/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```text
+
 
 ---
 
